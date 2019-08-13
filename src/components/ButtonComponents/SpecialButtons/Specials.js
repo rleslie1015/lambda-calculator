@@ -12,8 +12,8 @@ const Specials = () => {
 
   return (
     <div>
-      {console.log(specials)}
-      {specials.map(numButton => {return <SpecialButton key = {numButton} numButton = {numButton}/>})}
+      {specials.map(numButton => 
+        {return <SpecialButton key = {numButton} numButton = {numButton}/>})}
     </div>
   );
 };
