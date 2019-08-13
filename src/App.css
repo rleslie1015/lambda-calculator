@@ -1,0 +1,25 @@
+html {
+    background: black;
+}
+body {
+    background: darkred;
+    width: 275px;
+    height: 470px;
+    margin: 0 auto;
+}
+
+/* display */
+.display {
+    background: rgb(72, 78, 78);
+    height: 44px;
+    width: 240px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+
+/* buttons */
+button {
+margin: 15px;
+ border-radius: 50%;
+}
